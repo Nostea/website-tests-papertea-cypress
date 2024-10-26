@@ -24,7 +24,7 @@ describe("User's first visit to Paper&Tea", () => {
       cy.wait(100);
       cy.url().should("contain", "https://www.paperandtea.de/checkouts");
       cy.get("#ReductionsInput0").should("exist").type("RABATT20");
-      cy.get("#Form0").find("button").click();
+      cy.get("#Form0").find("button").first().click();
     });
   });
 });
