@@ -2,7 +2,6 @@
 
 This project is for learning how to create automated tests for existing Codebases.
 I chose www.paperandtea.de as my test subject.
-s
 
 ## Test selection
 
